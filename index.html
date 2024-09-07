@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .item {
+            padding: 20px;
+            border: 1px solid rgb(5, 156, 216);
+            border-radius: 5px;
+        }
+
+        /* Responsive layout for smaller screens */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <h2>1.Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quae, eveniet doloribus id animi dignissimos quo beatae praesentium. Quae reiciendis ea nihil ipsum eligendi, libero porro facilis dolore deserunt tenetur.</p>
+        </div>
+        <div class="item">
+            <h2>2.Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quae, eveniet doloribus id animi dignissimos quo beatae praesentium. Quae reiciendis ea nihil ipsum eligendi, libero porro facilis dolore deserunt tenetur.</p>
+        </div>
+        <div class="item">
+            <h2>3.Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quae, eveniet doloribus id animi dignissimos quo beatae praesentium. Quae reiciendis ea nihil ipsum eligendi, libero porro facilis dolore deserunt tenetur.</p>
+        </div>
+        <div class="item">
+            <h2>4.Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quae, eveniet doloribus id animi dignissimos quo beatae praesentium. Quae reiciendis ea nihil ipsum eligendi, libero porro facilis dolore deserunt tenetur.</p>
+        </div>
+        <div class="item">
+            <h2>5.Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quae, eveniet doloribus id animi dignissimos quo beatae praesentium. Quae reiciendis ea nihil ipsum eligendi, libero porro facilis dolore deserunt tenetur.</p>
+        </div>
+        <div class="item">
+            <h2>6.Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quae, eveniet doloribus id animi dignissimos quo beatae praesentium. Quae reiciendis ea nihil ipsum eligendi, libero porro facilis dolore deserunt tenetur.</p>
+        </div>
+        <div class="item">
+            <h2>7.Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quae, eveniet doloribus id animi dignissimos quo beatae praesentium. Quae reiciendis ea nihil ipsum eligendi, libero porro facilis dolore deserunt tenetur.</p>
+        </div>
+        <div class="item">
+            <h2>8.Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quae, eveniet doloribus id animi dignissimos quo beatae praesentium. Quae reiciendis ea nihil ipsum eligendi, libero porro facilis dolore deserunt tenetur.</p>
+        </div>
+    </div>
+</body>
+</html>
